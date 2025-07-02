@@ -11,12 +11,12 @@ def index():
     return render_template('index.html',nm=res) 
 
 @app.route("/student/<int:id>")
-def get
+def get_student(id):
+    pass
 
 
 
 
-"<h1>Hello World </h1>"
 if __name__=='__main__':
     app.run(debug=True)
 
